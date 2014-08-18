@@ -21,6 +21,7 @@
 		25D93F2E19A290D10058B07E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D93F1019A290D10058B07E /* UIKit.framework */; };
 		25D93F3619A290D10058B07E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25D93F3419A290D10058B07E /* InfoPlist.strings */; };
 		25D93F3819A290D10058B07E /* gitexampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D93F3719A290D10058B07E /* gitexampleTests.m */; };
+		25D93F4319A294CB0058B07E /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D93F4219A294CB0058B07E /* DetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		25D93F3319A290D10058B07E /* gitexampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitexampleTests-Info.plist"; sourceTree = "<group>"; };
 		25D93F3519A290D10058B07E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25D93F3719A290D10058B07E /* gitexampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitexampleTests.m; sourceTree = "<group>"; };
+		25D93F4119A294CB0058B07E /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		25D93F4219A294CB0058B07E /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		25D93F0019A290D10058B07E = {
 			isa = PBXGroup;
 			children = (
+				25D93F4119A294CB0058B07E /* DetailTableViewController.h */,
+				25D93F4219A294CB0058B07E /* DetailTableViewController.m */,
 				25D93F1219A290D10058B07E /* gitexample */,
 				25D93F3119A290D10058B07E /* gitexampleTests */,
 				25D93F0B19A290D10058B07E /* Frameworks */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D93F4319A294CB0058B07E /* DetailTableViewController.m in Sources */,
 				25D93F2319A290D10058B07E /* ViewController.m in Sources */,
 				25D93F1D19A290D10058B07E /* AppDelegate.m in Sources */,
 				25D93F1919A290D10058B07E /* main.m in Sources */,
